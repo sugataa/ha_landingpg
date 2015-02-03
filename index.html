@@ -5,37 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Bootstrap -->
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+
+  body {
+    padding-top: 20px;
+  }
+
+  .margin-base-vertical {
+    margin: 40px 0;
+  }
+
+  </style>
+
 </head>
 <body>
-  <h1>Hackers gonna hack.</h1>
 
-  <p>
-    Your mom circulates like a public key, 
-    <br>
-    Servicing more requests than HTTP.
-  </p>
-  <p>
-    My flow is so intense that I will overflow your buffer, 
-    <br>
-    Corrupt your stack pointer makin' all your data suffer.
-  </p>
-  <p>
-    Word to the wise, 
-    <br>
-    Always sign your rhymes with PGP.
-  </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
 
-  <form action="/mailing-list" method="post">
-    <p class="input-group">
-      <span class="input-group-addon">@</span>
-      <input type="text" class="form-control input-lg" name="email" placeholder="info@hackeracademy.com" />
-    </p>
-    <p class="help-block"><small>We won't send you spam. Unsubscribe at any time.</small></p>
-    <p>
-      <button type="submit" class="btn btn-success btn-lg">Keep me posted</button>
-    </p>
-    </span>
-  </form>
+        <h1 class="margin-base-vertical">Hackers gonna hack.</h1>
+
+        <p>
+          Your mom circulates like a public key, 
+          <br>
+          Servicing more requests than HTTP.
+        </p>
+        <p>
+        My flow is so intense that I will overflow your buffer, 
+        <br>
+        Corrupt your stack pointer makin' all your data suffer.
+        </p>
+        <p>
+        Word to the wise, 
+        <br>
+        Always sign your rhymes with PGP.
+        </p>
+
+        <form action="/mailing-list" method="post" class="margin-base-vertical">
+          <p class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control input-lg" name="email" placeholder="info@hackeracademy.com" />
+          </p>
+          <p class="help-block text-center"><small>We might send you spam. But not likely...maybe...hmmm</small></p>
+          <p class="text-center">
+            <button type="submit" class="btn btn-success btn-lg">Keep me posted</button>
+          </p>
+          </span>
+        </form>
+
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
